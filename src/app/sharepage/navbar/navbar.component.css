@@ -6,3 +6,7 @@
   color: var(--primary-color);
   text-decoration: underline;
 }
+
+.title {
+  font-size: 30px;
+}
