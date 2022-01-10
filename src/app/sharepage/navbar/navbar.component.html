@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light">
 	<div class="container-fluid">
-		<a class="navbar-brand title" routerLink="">Mimmo's World</a>
+		<a class="navbar-brand title" routerLink="" data-bs-toggle="collapse"
+			data-bs-target=".navbar-collapse.show">Mimmo's World</a>
 		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
 			aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -10,6 +11,8 @@
 				<a class="nav-link" routerLink="" routerLinkActive="active-link"
 					[routerLinkActiveOptions]="{exact: true}" data-bs-toggle="collapse"
 					data-bs-target=".navbar-collapse.show">Home</a>
+				<a class="nav-link" routerLink="curriculm-vitae" routerLinkActive="active-link"
+					data-bs-toggle="collapse" data-bs-target=".navbar-collapse.show">Curriculum</a>
 				<a class="nav-link" routerLink="about" routerLinkActive="active-link" data-bs-toggle="collapse"
 					data-bs-target=".navbar-collapse.show">About me</a>
 				<a class="nav-link" routerLink="contact" routerLinkActive="active-link" data-bs-toggle="collapse"

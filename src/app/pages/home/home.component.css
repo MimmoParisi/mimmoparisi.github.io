@@ -5,7 +5,28 @@
 
 @media screen and (max-width: 667px) {
   img {
-    height: 70vh;
+    height: 76vh;
     width: auto !important;
   }
+}
+
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  bottom: 9.85rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: left;
+}
+
+.carousel-caption h5 {
+  font-size: 60px;
+}
+
+.carousel-caption p {
+  margin-left: 4px;
+  font-size: 25px;
+  text-shadow: var(--primary-color) 1px 0 10px;
 }
