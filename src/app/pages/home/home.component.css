@@ -8,6 +8,73 @@
     height: 76vh;
     width: auto !important;
   }
+  .montain {
+    height: 141vh;
+  }
+  .venice {
+    height: 80vh;
+  }
+
+  .marvin {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 596px) {
+  .montain {
+    transform: translate(-11%, 0);
+  }
+
+  .mu {
+    transform: translate(-7%, 0);
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .montain {
+    transform: translate(-21%, 0);
+  }
+
+  .mu {
+    transform: translate(-18%, 0);
+  }
+
+  .venice {
+    transform: translate(-8%, 0);
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .montain {
+    transform: translate(-29%, 0);
+  }
+
+  .venice {
+    transform: translate(-12%, 0);
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .montain {
+    transform: translate(-38%, 0);
+  }
+
+  .mu {
+    transform: translate(-25%, 0);
+  }
+
+  .venice {
+    transform: translate(-21%, 0);
+  }
+}
+
+@media screen and (max-width: 356px) {
+  .montain {
+    transform: translate(-46%, 0);
+  }
+  .venice {
+    transform: translate(-33%, 0);
+  }
 }
 
 .carousel-caption {

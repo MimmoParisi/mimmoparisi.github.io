@@ -12,3 +12,40 @@ body {
   --primary-color: #3fc060;
   --secondary-color: #162328;
 }
+
+.border {
+  margin: 5% auto;
+  padding: 20px;
+  background: none;
+  border: none;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.border:after,
+.border:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 2px solid #000;
+  transition: transform 0.2s;
+}
+.border:after {
+  transform: translate(-6px, -6px);
+}
+.border:before {
+  transform: translate(0px, 0px);
+}
+.border:hover:after,
+.border:hover:before {
+  transform: translate(0);
+}
+a {
+  color: black;
+  font-style: italic;
+}

@@ -973,3 +973,7 @@ a {
     margin-left: 65px;
   }
 }
+
+h3 {
+  font-weight: bolder;
+}

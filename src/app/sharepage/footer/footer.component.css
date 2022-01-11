@@ -14,6 +14,10 @@ h1 {
   padding-top: 2px;
 }
 
+.title {
+  font-family: "Gloria Hallelujah", cursive;
+}
+
 p {
   color: #fff;
   font-size: 12px;
