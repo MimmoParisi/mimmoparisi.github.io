@@ -20,19 +20,27 @@
   }
 }
 
-@media screen and (max-width: 596px) {
+@media screen and (max-width: 667px) {
   .montain {
-    transform: translate(-11%, 0);
+    transform: translate(-9%, 0);
   }
+}
 
+@media screen and (max-width: 596px) {
   .mu {
     transform: translate(-7%, 0);
   }
 }
 
+@media screen and (max-width: 560px) {
+  .montain {
+    transform: translate(-17%, 0);
+  }
+}
+
 @media screen and (max-width: 525px) {
   .montain {
-    transform: translate(-21%, 0);
+    transform: translate(-22%, 0);
   }
 
   .mu {
@@ -54,13 +62,13 @@
   }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 425px) {
   .montain {
-    transform: translate(-38%, 0);
+    transform: translate(-37%, 0);
   }
 
   .mu {
-    transform: translate(-25%, 0);
+    transform: translate(-26%, 0);
   }
 
   .venice {
@@ -68,9 +76,9 @@
   }
 }
 
-@media screen and (max-width: 356px) {
+@media screen and (max-width: 374px) {
   .montain {
-    transform: translate(-46%, 0);
+    transform: translate(-45%, 0);
   }
   .venice {
     transform: translate(-33%, 0);
