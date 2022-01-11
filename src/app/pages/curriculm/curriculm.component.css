@@ -956,20 +956,20 @@ a {
 @media only screen and (max-width: 445px) {
   .main-timeline2 {
     overflow: visible;
-    margin-left: 58px;
+    margin-left: 59px;
   }
 }
 
 @media only screen and (max-width: 379px) {
   .main-timeline2 {
     overflow: visible;
-    margin-left: 60px;
+    margin-left: 61px;
   }
 }
 
 @media only screen and (max-width: 346px) {
   .main-timeline2 {
     overflow: visible;
-    margin-left: 62px;
+    margin-left: 65px;
   }
 }
